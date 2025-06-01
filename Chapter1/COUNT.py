@@ -1,4 +1,4 @@
-def COUNT(Text,Pattern):
+def PATTERNCOUNT(Text,Pattern):
     k = len(Pattern)
     num = 0
     for i in range(len(Text)-k+1):
