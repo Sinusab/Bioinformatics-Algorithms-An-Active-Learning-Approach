@@ -1,4 +1,4 @@
-def PATTERNCOUNT(Text,Pattern):
+def Pattern_Count(Text,Pattern):
     k = len(Pattern)
     num = 0
     for i in range(len(Text)-k+1):
@@ -6,4 +6,4 @@ def PATTERNCOUNT(Text,Pattern):
             num+=1
     return num
 
-COUNT('ACAACTATGCATACTATCGGGAACTATCCT','ACTAT')
+Pattern_Count('ACAACTATGCATACTATCGGGAACTATCCT','ACTAT')
