@@ -1,0 +1,5 @@
+def Reverse_complement(pattern):
+    complement = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
+    return ''.join(complement[base] for base in reversed(pattern))
+
+Reverse_complement('ACGGT')
